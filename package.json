@@ -1,0 +1,26 @@
+{
+  "name": "YuumiBot",
+  "version": "1.0.0",
+  "description": "A Discord bot to kick Yuumi down the stairs",
+  "engines": {
+    "node": "20.x"
+  },
+  "main": "yuumibot.js",
+  "scripts": {
+      "start": "node yuumibot.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/akmindt/yuumibot.git"
+  },
+  "author": "Aaron Mindt",
+  "license": "MIT",
+  "dependencies": {
+      "discord.js": "^14.15.3",
+      "dotenv": "^16.4.5",
+      "request": "^2.79.0",
+      "request-promise-native": "^1.0.3",
+      "urijs": "^1.18.4"
+  }
+}
